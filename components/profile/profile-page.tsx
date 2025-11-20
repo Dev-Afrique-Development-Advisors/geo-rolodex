@@ -29,7 +29,7 @@ export default function ProfilePage({ data: { organisation, projects } }: Profil
             {organisation?.logo ? (
               <div className='relative h-16 w-16 overflow-hidden rounded-lg border'>
                 <Image
-                  src={organisation.logo}
+                  src={organisation.logo || '/dummy-logo.png'}
                   alt={`${organisation.name} logo`}
                   fill
                   className='object-contain'
