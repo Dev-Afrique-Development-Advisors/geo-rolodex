@@ -14,6 +14,15 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/sign-in',
+        destination: 'https://app.geo-rolodex.com/sign-in',
+        permanent: false,
+      },
+    ]
+  },
 }
 
 module.exports = nextConfig
