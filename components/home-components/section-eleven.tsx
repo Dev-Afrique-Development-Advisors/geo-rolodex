@@ -12,8 +12,11 @@ const SectionEleven = () => {
           ecosystem. By joining, you help ensure the geospatial future in LMICs
           is visible, connected, and collaborative.
         </p>
-        <Button className='h-14 w-52 rounded-[12px] bg-[#2B59FF] hover:scale-105 hover:bg-[#2B59FF] text-white'>
-          Get Started Now
+        <Button
+          asChild
+          className='h-14 w-52 rounded-[12px] bg-[#2B59FF] hover:scale-105 hover:bg-[#2B59FF] text-white'
+        >
+          <a href='mailto:geo-rolodex@policyvault.africa'>Get Started Now</a>
         </Button>
 
         <p className='font-jakarta text-sm text-[#070D27]'>

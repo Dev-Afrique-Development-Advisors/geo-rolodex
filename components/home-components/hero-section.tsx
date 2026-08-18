@@ -25,7 +25,7 @@ const HeroSection = () => {
               Login
             </Link>
             <a
-              href='https://stakeholder-map.nyc3.cdn.digitaloceanspaces.com/Geo-Rolodex%20User%20Guide.pdf'
+              href='https://stakeholder-map.nyc3.cdn.digitaloceanspaces.com/new-rolodex-user-guide.pdf'
               target='_blank'
               rel='noopener noreferrer'
               className='text-md flex h-14 w-60 items-center justify-center rounded-[12px] border border-white/50 bg-transparent hover:scale-105'

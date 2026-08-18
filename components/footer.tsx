@@ -40,7 +40,7 @@ const Footer = () => {
             <p className='font-bold text-white'>Resources</p>
             <p>
               <a
-                href='https://stakeholder-map.nyc3.cdn.digitaloceanspaces.com/Geo-Rolodex%20User%20Guide.pdf'
+                href='https://stakeholder-map.nyc3.cdn.digitaloceanspaces.com/new-rolodex-user-guide.pdf'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='cursor-pointer hover:underline'
