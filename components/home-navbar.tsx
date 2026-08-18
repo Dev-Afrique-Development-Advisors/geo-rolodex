@@ -28,18 +28,17 @@ const Navbar = () => {
               About Us
             </Link>
             <Link
-              href='#'
-              onClick={() =>
-                window.open(
-                  'https://stakeholder-map.nyc3.cdn.digitaloceanspaces.com/Geo-Rolodex%20User%20Guide.pdf',
-                  '_blank'
-                )
-              }
+              href='https://stakeholder-map.nyc3.cdn.digitaloceanspaces.com/new-rolodex-user-guide.pdf'
+              target='_blank'
+              rel='noopener noreferrer'
               className='cursor-pointer'
             >
               User Guide
             </Link>
-            <Link href='#' className='cursor-pointer'>
+            <Link
+              href='mailto:geo-rolodex@policyvault.africa'
+              className='cursor-pointer'
+            >
               Request Demo
             </Link>
           </ul>
@@ -72,13 +71,9 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  href='#'
-                  onClick={() =>
-                    window.open(
-                      'https://stakeholder-map.nyc3.cdn.digitaloceanspaces.com/Geo-Rolodex%20User%20Guide.pdf',
-                      '_blank'
-                    )
-                  }
+                  href='https://stakeholder-map.nyc3.cdn.digitaloceanspaces.com/new-rolodex-user-guide.pdf'
+                  target='_blank'
+                  rel='noopener noreferrer'
                   className='font-Inter cursor-pointer text-base'
                 >
                   User Guide
@@ -86,7 +81,7 @@ const Navbar = () => {
               </li>
               <div className='flex items-center gap-2'>
                 <Link
-                  href='#'
+                  href='mailto:geo-rolodex@policyvault.africa'
                   className='font-Inter cursor-pointer text-base'
                 >
                   Request Demo
